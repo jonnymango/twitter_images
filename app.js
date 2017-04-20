@@ -10,10 +10,10 @@ var app = require('http').createServer(handler),
 app.listen(3000);
 
 var twit = new twitter({
-  consumer_key: '0vXnCSHSS8Nmk0HAMvz93QTVZ',
-  consumer_secret: 'IyQbPsMQEZgCtzUP6iLeeQnENpcyHrOI7poeIzrD0GOH716gH5',
-  access_token_key: '16627470-bfYO3cs3ohszczULFKp0pegQ4ksMc1TrA3txUqoiD',
-  access_token_secret: 'EjqMsTfV16SCKwX6iSvbMesTIvkF3t7MxOgTQCCM7qnFf'
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: ''
 });
 
 function handler (req, res) {
